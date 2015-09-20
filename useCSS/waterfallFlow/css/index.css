@@ -3,13 +3,17 @@ a, address, b, big, blockquote, body, center, cite, code, dd, del, div, dl, dt, 
     padding: 0px;
 }
 
-#main{
-    position: relative;
+#main {
+    /*position: relative;*/
+    /*多栏布局*/
+    -webkit-column-width: 202px;
+    -moz-column-width: 202px;
+    column-width: 202px;
 }
 
 #main .box{
     padding: 15px 0px 0px 15px;
-    float: left;
+    /*float: left;*/
 }
 
 #main .box .pic{
