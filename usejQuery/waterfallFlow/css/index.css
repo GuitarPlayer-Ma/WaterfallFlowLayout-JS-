@@ -8,16 +8,16 @@ a, address, b, big, blockquote, body, center, cite, code, dd, del, div, dl, dt, 
 }
 
 #main .box{
-    padding: 15px 0px 0px 15px;
+    padding: 15px 0 0 15px;
     float: left;
 }
 
 #main .box .pic{
     padding: 10px;
     border: 1px solid #ddd;
-    box-shadow: 0px 0px 5px #ddd;
-    border-radius: 5px;
+    box-shadow: 0 0 5px #ddd;
     width: 165px;
+    border-radius: 5px;
 }
 
 #main .box .pic img{
